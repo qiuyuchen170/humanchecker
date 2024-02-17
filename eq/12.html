@@ -1,29 +1,32 @@
 <html>
 	<head>
 		<title>lim_1</title>
+		<link rel="stylesheet" href="../katex.min.css">
+		<script defer src="../katex.min.js"></script>
 	</head>
 	<body>
 		<h1>人类检测（送分题）</h1>
-		<h3>计算以下极限以验证您是真人：</h3>
+		<h3>解以下一元二次方程以验证您是真人：</h3>
+		<h6>我打死也不会告诉你答案是整数。</h6>
 		<div id="q"></div>
 		<div id="a"></div>
 		<form onsubmit="return check(res)">
-			<label>分子：</label>
+			<label>x1=</label>
 			<input type="text" id="x"><br><br>
-			<label>分母（整数请填1）：</label>
+			<label>x2=</label>
 			<input type="text" id="y"><br><br>
 			<input type="submit" value="提交">
 		</form>
 	</body>
-	<script src="1.js"></script>
+	<script src="12.js"></script>
 	<script>
 		function res(result){
-		    	if(result){
+    			if(result){
 		    	    alert("通过验证");
 		    	}
 		    	else{
-		    	    alert("是人吗？不是人。");
-		    	}
+    			    alert("是人吗？不是人。");
+    			}
 		}
 	</script>
 </html>

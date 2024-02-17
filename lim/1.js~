@@ -36,11 +36,11 @@ function check(r){
         alert("检测成功，是人类！");
     }*/
 }
-/*function res(result){
+function res(result){
     if(result){
         alert("通过验证");
     }
     else{
         alert("是人吗？不是人。");
     }
-}*/
+}

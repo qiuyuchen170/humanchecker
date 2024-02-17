@@ -18,13 +18,13 @@
 	<script src="1.js"></script>
 	<script>
 		function res(result){
-		    	if(result){
-		    	    alert("通过验证");
-		    	}
-		    	else{
-		    	    alert("是人吗？不是人。");
-		    	}
-		}
+    	if(result){
+    	    alert("通过验证");
+    	}
+    	else{
+    	    alert("是人吗？不是人。");
+    	}
+	}
 	</script>
 </html>
 
