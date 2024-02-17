@@ -1,0 +1,36 @@
+<html>
+	<head>
+		<title>eq_13</title>
+		<link rel="stylesheet" href="../katex.min.css">
+		<script defer src="../katex.min.js"></script>
+	</head>
+	<body>
+		<h1>人类检测（送分题）</h1>
+		<h3>解以下一元三次方程以验证您是真人：</h3>
+		<h6>我打死也不会告诉你答案是整数。</h6>
+		<div id="q"></div>
+		<div id="a"></div>
+		<form onsubmit="return check(res)">
+			<label>x1=</label>
+			<input type="text" id="x1"><br><br>
+			<label>x2=</label>
+			<input type="text" id="x2">
+			<label>x3=</label>
+			<input type="text" id="x3">
+			<br><br>
+			<input type="submit" value="提交">
+		</form>
+	</body>
+	<script src="13.js"></script>
+	<script>
+		function res(result){
+    			if(result){
+		    	    alert("通过验证");
+		    	}
+		    	else{
+    			    alert("是人吗？不是人。");
+    			}
+		}
+	</script>
+</html>
+
