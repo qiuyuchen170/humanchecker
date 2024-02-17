@@ -7,6 +7,7 @@
 	<body>
 		<h1>人类检测（送分题）</h1>
 		<h3>解以下一元二次方程以验证您是真人：</h3>
+		<h6>我打死也不会告诉你答案是整数。</h6>
 		<div id="q"></div>
 		<div id="a"></div>
 		<form onsubmit="return check(res)">
